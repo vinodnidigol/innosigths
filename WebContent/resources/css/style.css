@@ -1,0 +1,426 @@
+@media only screen and (max-width:550px){
+	.container{
+	grid-template-columns:1fr ;
+	grid-template-rows:0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1fr ;
+	grid-template-areas:
+	"cnumber"
+	"nav-bar"
+	"slider"
+	"services"
+	"promo"
+	"team"
+	"social-media"
+	"team"
+	"contact"
+	"copy"
+	"google-Map"
+	}
+}
+
+body {
+	
+	font-family: sans-serif;	
+}
+
+
+#cnumber{
+ position: sticky;
+ top: 0 ;
+ z-index: 10;
+}
+.no{
+	padding: 10px 10px ;
+}
+.no a {
+	padding-left: 140px ;
+	padding-right: 140px ;
+}
+.no  li {
+	padding-left: 20px ;
+}
+ #nav-bar{
+ position: sticky;
+ top: 0 ;
+ z-index: 10;
+ }
+ .navbar{
+ background-image: linear-gradient(to right,darkGreen,#fff);
+ }
+ .navbar-brand  {
+       color: #fff !important ;
+        font-weight: 600 ;
+         font-size : 40px ;
+       padding-left: 30px ;
+      
+ }
+ .navbar-brand  img {
+ height: 80px ;
+ width: 280px ;
+ }
+ 
+ 
+ .navbar-nav li {
+ padding: 0 10px ;
+ }
+ 
+ .navbar-nav li a {
+ color: #000000!important ;
+
+ font-weight: 600 ;
+ float: right;
+ }
+ 
+ .fa-bars {
+ color: #fff ;
+ font-size: 30px !important;
+ }
+ 
+ 
+ .navbar-toggler {
+ outline: none ;
+ }
+ 
+ .continer img{
+ height: 280px ;
+ width: 100% ;
+ }
+ 
+ 
+  /*----------------------SERVICES-----------------------------*/
+ #services{
+ background-size: cover ;
+ background-position: center;
+ color: black  !important;
+ background-attachment: fixed;
+ }
+ 
+  #services h1 {
+  text-align: center !important;
+  color: #000000!important;
+  padding-bottom: 10px ;
+  
+  }
+ #services h1::after {
+ content: '';
+ background: #000000 ;
+ display: block;
+ border-radius :50px;
+ height: 3px ;
+ width: 170px ;
+ margin: 20px auto 5px ;
+ }
+ 
+ .services {
+ margin-top: 40px ;
+ 
+ }
+ .icon {
+  font-size: 40px ;
+  margin: 20px auto;
+  padding: 20px ;
+  height: 80px ;
+  width: 80px ;
+  border: 2px solid black ;
+  border-radius:100% 100% 0% 98% / 85% 99% 2% 82%   ;
+ }
+ 
+ #services p {
+   font-size: 17px ;
+   margin-top: 20px ;
+   color:black;
+ }
+ .services .col-md-4:hover {
+ background-image: linear-gradient(to right,darkGreen,#c0c0c0);
+ cursor: pointer;
+ transition:0.7s ;
+ }
+ 
+ 
+ .slider h2  {
+
+ margin-bottom :27% ;
+ text-align : left ;
+color :#fc6703!important ;
+font-family: 'Seaweed Script', cursive;
+ }
+ 
+ #AboutUs {
+ 
+  padding: 40px 40px ;
+  background:#fff; 
+   
+ }
+ .continer p {
+ color: #000000 ;
+ }
+ #AboutUs h1 {
+  text-align: center !important;
+  color: #000000!important;
+  padding-bottom: 10px ;
+   }
+ #AboutUs h1::after {
+ content: '';
+ background: #000000 ;
+ display: block;
+ border-radius :50px;
+ height: 3px ;
+ width: 170px ;
+ margin: 20px auto 5px ;
+ }
+ 
+ .AboutUs {
+ margin-top: 40px ;
+ 
+ }
+#AboutUs .row {
+  height: 90px;
+  text-align: justify;
+}
+#Service {
+	
+	padding: 40px 40px ;
+	background: #fff ;
+	}
+#Service h5 {
+  text-align: center !important;
+  color: #000000!important;
+  padding-bottom: 10px ;
+   }
+ #Service h5::after {
+ content: '';
+ background: #000000 ;
+ display: block;
+ border-radius :50px;
+ height: 3px ;
+ width: 170px ;
+ margin: 20px auto 5px ;
+ }
+ 
+ .Service {
+ margin-top: 40px ;
+ 
+ }
+ 
+  /*----------------------team member-------------------------*/
+  #team{
+  padding-top: 50px ;
+  padding-bottom: 50px;
+  color: #555;
+    }
+    
+    h1 {
+    text-align: center;
+    color: #555 !important ;
+    padding-bottom: 10px ;
+    
+    }
+    
+    h1::after {
+    content: '' ;
+    background: #007bff ;
+    display: block;
+    height: 3px ;
+    width: 170px ;
+    margin: 20px auto 5px ;
+    }
+    
+ .profile-pic {
+ margin-top: 20px ;
+ }
+ 
+  .profile-pic .img-box {
+  opacity: 1 ;
+  display: block;
+  position: relative;
+  }
+  
+ .profile-pic .img-box img {
+  filter :grayscale(1) ;
+  }
+  
+   .profile-pic .img-box img:hover {
+  filter :grayscale(0) ;
+  cursor: pointer;
+  }
+    .profile-pic h2 {
+    font-size: 22px ;
+    font-weight: bold ;
+    margin-top: 15px ;
+    color: #007bff !important ;
+    }
+   .profile-pic h3 {
+   font-size: 15px ;
+   font-weight: bold; 
+   margin-top: 15px ;
+   
+   }
+   
+   #team fa {
+   height: 25px ;
+   width: 25px ;
+   color: #007ffb !important ;
+   background: #fff ;
+   padding: 4px ;
+   border-radius: 50px ;
+   
+   }
+   .img-box ul {
+   padding: 15px 0 ;
+   position: absolute;
+   z-index: 2 ;
+   bottom: 0 ;
+   left: 50px ;
+   transform :translateX(-50%);
+   opacity: 0 ;
+   }
+   
+   .img-box ul li {
+   padding: 5px ;
+   display: inline-block;
+   }
+   .img-box:hover ul {
+   opacity: 1 ;
+   }
+   
+   .img-box ul .img-box ul li {
+   transition: 0.5s ;
+   }
+    /*----------------------token-------------------------*/
+   
+   #promo {
+    background-image: linear-gradient(to right,darkGreen,#c0c0c0);
+    background-size: cover ;
+    background-position: center ;
+    color: #fff ;
+    background-attachment: fixed ;
+    text-align: center ;
+    padding: 100px ;
+    font-family: sans-serif;
+   }
+ 
+ 
+ /*---------------SOCIAL MEDIA-----------------*/
+        
+        
+        #social-media {
+       background-image: linear-gradient(to right,darkGreen,#c0c0c0);
+        padding: 20px 0;
+        }
+        
+        #social-media p {
+        font-size: 24px ;
+        color :#fff ;
+        font-weight: 600 ;
+        margin-bottom:10px ;
+       
+        }
+      
+      .social-icons img {
+     
+      width: 40px ;
+      transition :0.3s ;
+      
+      } 
+      
+      .social-icons a:hover img {
+      transform :translateY(-10px);
+      }
+      
+      #social-media ul p {
+      font-size: 10px ;
+      padding-left: 20px;
+      }
+      
+    
+      /*---------footer-------------------*/
+      
+      #footer {
+      background-image: linear-gradient(to right,DarkGreen,#c0c0c0); 
+       color :#fff ;
+      }
+      
+      .footer-box {
+      padding:  5px ;
+      
+      }
+      .footer-box img {
+        height: 80px ;
+         width: 220px ;
+      padding-left: 60px ;
+      }
+      
+       .footer-box P {
+       
+       font-size: 1px ; 
+       }
+       
+      
+      /*----------------------contact-----------------------------*/
+      
+      #contact {
+      background-image: linear-gradient(to right,DarkGreen,#c0c0c0); 
+    
+      padding-top: 40px ;
+      padding-bottom: 40px ;
+      color: #fff ;
+      }
+      .contact-form {
+      padding: 15px ;
+      }
+       .follow {
+    
+       padding: 10px ;
+       margin: 15px ;
+       }
+      
+      
+      #contact P {
+        color: #fff ;
+       font-size: 10px ; 
+       display: inline-block;
+       padding-left: 160px ;
+      
+       }
+       
+       /*---------------------about us-------------------------*/
+      #ECE {
+      background: #fff ;
+      padding-bottom: 50px ;
+      padding-top: 50px ;
+      }
+      
+      .about-title {
+      font-size: 20px ;
+      font-weight: 600 ;
+      margin-top: 8% ;
+      }
+      
+       #about-us ul li{
+       margin: 10px 0 ;
+       }
+        #about-us ul {
+        margin-left: 10px ;
+        }
+        
+      #Mech {
+      background: #fff ;
+      padding-bottom: 50px ;
+      padding-top: 50px ;
+      }
+      
+      .about-title {
+      font-size: 20px ;
+      font-weight: 400 ;
+      margin-top: 8% ;
+      }
+      
+       #about-us ul li{
+       margin: 10px 0 ;
+       }
+        #about-us ul {
+        margin-left: 10px ;
+        }
+        
+        
+ 
+ 
